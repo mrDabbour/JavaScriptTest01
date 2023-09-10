@@ -1,0 +1,83 @@
+<!-- MrDabour
+lesson00 your first file using javascript
+the content is for (learn with Naw) in youtube.
+ -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 00</title>
+</head>
+
+<body>
+    <h1>Welcome in Home Page form html file</h1>
+    <!-- How to get JavaScript from the project as using JavaScript in "First way"-->
+    <script src="script.js"></script>
+
+    <!-- How to use JavaScript Code in Second Way -->
+    <script>
+        // =================================== Strings ===========================
+        var name;
+        function RightJob(name) {
+            console.log(((" || Right Job: " + name).repeat(2)));
+        }
+        //Print using function Right Job
+        RightJob("Mohammed Dabour");
+        //Print the type of the parameter  
+        console.log(typeof name);
+
+        //How to print the String Capital Latter 
+        var AlertMassage = "Not for wamen!!!".toUpperCase();
+        console.log(AlertMassage);
+
+        //Print the position of the letters form the StringFullName
+        var letters = "Mohammed Dabour";
+        console.log(letters.indexOf("M"));
+        console.log(letters.indexOf("o"));
+        console.log(letters.indexOf("h"));
+        console.log(letters.indexOf("a"));
+        console.log(letters.indexOf("m"));
+        console.log(letters.indexOf("m"));
+        console.log(letters.indexOf("e"));
+        console.log(letters.indexOf("d"));
+        console.log(letters.indexOf(" "));
+        console.log(letters.indexOf("D"));
+        console.log(letters.indexOf("a"));
+        console.log(letters.indexOf("b"));
+        console.log(letters.indexOf("o"));
+        console.log(letters.indexOf("u"));
+        console.log(letters.indexOf("r"));
+        // ========================================== Boolean =======================
+        // print if that true or false 
+        var canSosoGetADiscount = 150 >= 100;
+        console.log(canSosoGetADiscount); // ture 
+        // the type of the variable
+        console.log(typeof canSosoGetADiscount); //boolean
+
+
+        //Chick that if the name is right to give the user the true message 
+
+        userName1 = "Mohammed Dabour";
+        username2 = "Mazen Dabour"
+        function chickUser(userName) {
+            if (userName == "Mohammed Dabour") {
+                console.log(`Welcome ${userName} to the website you are the Right User `);
+            } else {
+                console.log(`No ${userName} you are not the Right User `);
+            }
+        }
+
+        chickUser(userName1);
+        // Hint 
+        //There is difference between (== ,!= ) (=== , !==)
+
+
+
+    </script>
+</body>
+
+</html>
